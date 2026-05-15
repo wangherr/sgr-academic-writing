@@ -3,7 +3,7 @@ name: sgr-academic-writing
 description: "Use when the user needs help writing, drafting, revising, or polishing academic papers."
 metadata:
   author: wang he
-  version: "1.0"
+  version: "2.0"
 ---
 
 
@@ -29,6 +29,8 @@ For new drafting, build from paragraph structure down to word choice.
 Delegate concrete operations to the reference files; this skill only coordinates.
 
 # Workflow
+
+- When the current object is a **chapter introduction**, load `references/improving-chapter-intro.md` and execute its rules.
 
 - When user requests **wording help**, load `references/improving-word.md` and execute its rules.
 
